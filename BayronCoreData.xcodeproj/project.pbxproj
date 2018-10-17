@@ -1,0 +1,543 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		080008EE1E801E2A00567578 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080008ED1E801E2A00567578 /* AppDelegate.swift */; };
+		080008F01E801E2A00567578 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080008EF1E801E2A00567578 /* ViewController.swift */; };
+		080008F31E801E2A00567578 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080008F11E801E2A00567578 /* Main.storyboard */; };
+		080008F61E801E2A00567578 /* BayronCoreData.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 080008F41E801E2A00567578 /* BayronCoreData.xcdatamodeld */; };
+		080008F81E801E2A00567578 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 080008F71E801E2A00567578 /* Assets.xcassets */; };
+		080008FB1E801E2A00567578 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 080008F91E801E2A00567578 /* LaunchScreen.storyboard */; };
+		080009061E801E2A00567578 /* BayronCoreDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080009051E801E2A00567578 /* BayronCoreDataTests.swift */; };
+		080009111E801E2A00567578 /* BayronCoreDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 080009101E801E2A00567578 /* BayronCoreDataUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		080009021E801E2A00567578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080008E21E801E2A00567578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080008E91E801E2A00567578;
+			remoteInfo = BayronCoreData;
+		};
+		0800090D1E801E2A00567578 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 080008E21E801E2A00567578 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 080008E91E801E2A00567578;
+			remoteInfo = BayronCoreData;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		080008EA1E801E2A00567578 /* BayronCoreData.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BayronCoreData.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		080008ED1E801E2A00567578 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		080008EF1E801E2A00567578 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		080008F21E801E2A00567578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		080008F51E801E2A00567578 /* BayronCoreData.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = BayronCoreData.xcdatamodel; sourceTree = "<group>"; };
+		080008F71E801E2A00567578 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		080008FA1E801E2A00567578 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		080008FC1E801E2A00567578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		080009011E801E2A00567578 /* BayronCoreDataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayronCoreDataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080009051E801E2A00567578 /* BayronCoreDataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayronCoreDataTests.swift; sourceTree = "<group>"; };
+		080009071E801E2A00567578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0800090C1E801E2A00567578 /* BayronCoreDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BayronCoreDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		080009101E801E2A00567578 /* BayronCoreDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BayronCoreDataUITests.swift; sourceTree = "<group>"; };
+		080009121E801E2A00567578 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		080008E71E801E2A00567578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080008FE1E801E2A00567578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080009091E801E2A00567578 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		080008E11E801E2A00567578 = {
+			isa = PBXGroup;
+			children = (
+				080008EC1E801E2A00567578 /* BayronCoreData */,
+				080009041E801E2A00567578 /* BayronCoreDataTests */,
+				0800090F1E801E2A00567578 /* BayronCoreDataUITests */,
+				080008EB1E801E2A00567578 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		080008EB1E801E2A00567578 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				080008EA1E801E2A00567578 /* BayronCoreData.app */,
+				080009011E801E2A00567578 /* BayronCoreDataTests.xctest */,
+				0800090C1E801E2A00567578 /* BayronCoreDataUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		080008EC1E801E2A00567578 /* BayronCoreData */ = {
+			isa = PBXGroup;
+			children = (
+				080008ED1E801E2A00567578 /* AppDelegate.swift */,
+				080008EF1E801E2A00567578 /* ViewController.swift */,
+				080008F11E801E2A00567578 /* Main.storyboard */,
+				080008F71E801E2A00567578 /* Assets.xcassets */,
+				080008F91E801E2A00567578 /* LaunchScreen.storyboard */,
+				080008FC1E801E2A00567578 /* Info.plist */,
+				080008F41E801E2A00567578 /* BayronCoreData.xcdatamodeld */,
+			);
+			path = BayronCoreData;
+			sourceTree = "<group>";
+		};
+		080009041E801E2A00567578 /* BayronCoreDataTests */ = {
+			isa = PBXGroup;
+			children = (
+				080009051E801E2A00567578 /* BayronCoreDataTests.swift */,
+				080009071E801E2A00567578 /* Info.plist */,
+			);
+			path = BayronCoreDataTests;
+			sourceTree = "<group>";
+		};
+		0800090F1E801E2A00567578 /* BayronCoreDataUITests */ = {
+			isa = PBXGroup;
+			children = (
+				080009101E801E2A00567578 /* BayronCoreDataUITests.swift */,
+				080009121E801E2A00567578 /* Info.plist */,
+			);
+			path = BayronCoreDataUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		080008E91E801E2A00567578 /* BayronCoreData */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080009151E801E2A00567578 /* Build configuration list for PBXNativeTarget "BayronCoreData" */;
+			buildPhases = (
+				080008E61E801E2A00567578 /* Sources */,
+				080008E71E801E2A00567578 /* Frameworks */,
+				080008E81E801E2A00567578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BayronCoreData;
+			productName = BayronCoreData;
+			productReference = 080008EA1E801E2A00567578 /* BayronCoreData.app */;
+			productType = "com.apple.product-type.application";
+		};
+		080009001E801E2A00567578 /* BayronCoreDataTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 080009181E801E2A00567578 /* Build configuration list for PBXNativeTarget "BayronCoreDataTests" */;
+			buildPhases = (
+				080008FD1E801E2A00567578 /* Sources */,
+				080008FE1E801E2A00567578 /* Frameworks */,
+				080008FF1E801E2A00567578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				080009031E801E2A00567578 /* PBXTargetDependency */,
+			);
+			name = BayronCoreDataTests;
+			productName = BayronCoreDataTests;
+			productReference = 080009011E801E2A00567578 /* BayronCoreDataTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0800090B1E801E2A00567578 /* BayronCoreDataUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0800091B1E801E2A00567578 /* Build configuration list for PBXNativeTarget "BayronCoreDataUITests" */;
+			buildPhases = (
+				080009081E801E2A00567578 /* Sources */,
+				080009091E801E2A00567578 /* Frameworks */,
+				0800090A1E801E2A00567578 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0800090E1E801E2A00567578 /* PBXTargetDependency */,
+			);
+			name = BayronCoreDataUITests;
+			productName = BayronCoreDataUITests;
+			productReference = 0800090C1E801E2A00567578 /* BayronCoreDataUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		080008E21E801E2A00567578 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0820;
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "NIU Computer Science";
+				TargetAttributes = {
+					080008E91E801E2A00567578 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+					};
+					080009001E801E2A00567578 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 080008E91E801E2A00567578;
+					};
+					0800090B1E801E2A00567578 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 080008E91E801E2A00567578;
+					};
+				};
+			};
+			buildConfigurationList = 080008E51E801E2A00567578 /* Build configuration list for PBXProject "BayronCoreData" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 080008E11E801E2A00567578;
+			productRefGroup = 080008EB1E801E2A00567578 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				080008E91E801E2A00567578 /* BayronCoreData */,
+				080009001E801E2A00567578 /* BayronCoreDataTests */,
+				0800090B1E801E2A00567578 /* BayronCoreDataUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		080008E81E801E2A00567578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080008FB1E801E2A00567578 /* LaunchScreen.storyboard in Resources */,
+				080008F81E801E2A00567578 /* Assets.xcassets in Resources */,
+				080008F31E801E2A00567578 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080008FF1E801E2A00567578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0800090A1E801E2A00567578 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		080008E61E801E2A00567578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080008F01E801E2A00567578 /* ViewController.swift in Sources */,
+				080008F61E801E2A00567578 /* BayronCoreData.xcdatamodeld in Sources */,
+				080008EE1E801E2A00567578 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080008FD1E801E2A00567578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080009061E801E2A00567578 /* BayronCoreDataTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		080009081E801E2A00567578 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				080009111E801E2A00567578 /* BayronCoreDataUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		080009031E801E2A00567578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080008E91E801E2A00567578 /* BayronCoreData */;
+			targetProxy = 080009021E801E2A00567578 /* PBXContainerItemProxy */;
+		};
+		0800090E1E801E2A00567578 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 080008E91E801E2A00567578 /* BayronCoreData */;
+			targetProxy = 0800090D1E801E2A00567578 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		080008F11E801E2A00567578 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080008F21E801E2A00567578 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		080008F91E801E2A00567578 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				080008FA1E801E2A00567578 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		080009131E801E2A00567578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		080009141E801E2A00567578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		080009161E801E2A00567578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BayronCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.BayronCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		080009171E801E2A00567578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = BayronCoreData/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.BayronCoreData;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		080009191E801E2A00567578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BayronCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.BayronCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BayronCoreData.app/BayronCoreData";
+			};
+			name = Debug;
+		};
+		0800091A1E801E2A00567578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = BayronCoreDataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.BayronCoreDataTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/BayronCoreData.app/BayronCoreData";
+			};
+			name = Release;
+		};
+		0800091C1E801E2A00567578 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BayronCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.BayronCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BayronCoreData;
+			};
+			name = Debug;
+		};
+		0800091D1E801E2A00567578 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = BayronCoreDataUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = edu.niu.cs.bayron.BayronCoreDataUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = BayronCoreData;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		080008E51E801E2A00567578 /* Build configuration list for PBXProject "BayronCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080009131E801E2A00567578 /* Debug */,
+				080009141E801E2A00567578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		080009151E801E2A00567578 /* Build configuration list for PBXNativeTarget "BayronCoreData" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080009161E801E2A00567578 /* Debug */,
+				080009171E801E2A00567578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		080009181E801E2A00567578 /* Build configuration list for PBXNativeTarget "BayronCoreDataTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				080009191E801E2A00567578 /* Debug */,
+				0800091A1E801E2A00567578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		0800091B1E801E2A00567578 /* Build configuration list for PBXNativeTarget "BayronCoreDataUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0800091C1E801E2A00567578 /* Debug */,
+				0800091D1E801E2A00567578 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		080008F41E801E2A00567578 /* BayronCoreData.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				080008F51E801E2A00567578 /* BayronCoreData.xcdatamodel */,
+			);
+			currentVersion = 080008F51E801E2A00567578 /* BayronCoreData.xcdatamodel */;
+			path = BayronCoreData.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 080008E21E801E2A00567578 /* Project object */;
+}
